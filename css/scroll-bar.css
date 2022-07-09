@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 0;
+    background: rgb(50, 50, 50);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lime-green);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--lime-green-transparent);
+}

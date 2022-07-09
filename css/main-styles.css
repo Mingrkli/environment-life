@@ -613,7 +613,6 @@ header .button {
 
 .img-hover {
     display: none;
-    width: 100%;
     height: 100%;
 
     background-size: cover;
@@ -653,6 +652,24 @@ header .button {
     100% {
         height: 400px;
         bottom: calc(100%);
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    #grid-buttons-temp a:nth-child(3) .img-hover {
+        background: url("../images/meeting-l.jpg") no-repeat center;
+    }
+
+    #grid-buttons-temp a:nth-child(4) .img-hover {
+        background: url("../images/notebook-l.jpg") no-repeat center;
+    }
+
+    #grid-buttons-temp a:nth-child(5) .img-hover {
+        background: url("../images/support-l.jpg") no-repeat center;
+    }
+
+    #grid-buttons-temp a:nth-child(6) .img-hover {
+        background: url("../images/small-notebook-l.jpg") no-repeat center;
     }
 }
 

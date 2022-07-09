@@ -657,19 +657,19 @@ header .button {
 
 @media screen and (min-width: 1850px) {
     #grid-buttons-temp a:nth-child(3) .img-hover {
-        background: url("../images/meeting-l.jpg") no-repeat center;
+        background: url("../images/meeting-l.png") no-repeat center;
     }
 
     #grid-buttons-temp a:nth-child(4) .img-hover {
-        background: url("../images/notebook-l.jpg") no-repeat center;
+        background: url("../images/notebook-l.png") no-repeat center;
     }
 
     #grid-buttons-temp a:nth-child(5) .img-hover {
-        background: url("../images/support-l.jpg") no-repeat center;
+        background: url("../images/support-l.png") no-repeat center;
     }
 
     #grid-buttons-temp a:nth-child(6) .img-hover {
-        background: url("../images/small-notebook-l.jpg") no-repeat center;
+        background: url("../images/small-notebook-l.png") no-repeat center;
     }
 }
 
